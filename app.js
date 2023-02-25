@@ -8,7 +8,7 @@ const products = require('./routes/products');
 
 mongoose.Promise = global.Promise;
 
-mongoose.connect('mongodb+srv://admin:adminmongo@cluster0.qbge9bw.mongodb.net/?retryWrites=true&w=majority')
+mongoose.connect('') // URL MONGO
   .then(() => console.log('Connection Successfully'))
   .catch((err) => console.log(err));
 
